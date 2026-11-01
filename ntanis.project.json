@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 3,
+  "project": {
+    "id": "osiris",
+    "displayName": "Osiris"
+  },
+  "presentation": {
+    "status": "live",
+    "category": "Developer tools",
+    "tagline": "Every Claude Code window back after a sudden restart.",
+    "description": "Remembers which Claude Code windows are open, and after a sudden restart (a freeze, a forced update, a power cut) reopens each one in its folder, on its conversation, in plain claude or through Baton.",
+    "icon": "terminal",
+    "accent": "#e8a33d",
+    "downloadLabel": "Download",
+    "releaseNote": "",
+    "features": [
+      {
+        "title": "One command after a sudden restart",
+        "description": "Osiris lists the windows that were open when the computer stopped and reopens the ones you tick, each in a terminal of its own."
+      },
+      {
+        "title": "Same conversation, same setup",
+        "description": "Each window resumes its conversation in its folder, with the model, effort and permission mode it had."
+      },
+      {
+        "title": "Plain claude or Baton",
+        "description": "Windows Baton started go back through Baton; the others resume in claude under the profile they ran on."
+      }
+    ],
+    "technologies": ["Node"],
+    "gallery": []
+  },
+  "hosting": {
+    "modes": ["placeholder", "external"],
+    "components": []
+  },
+  "artifacts": [
+    {
+      "id": "source",
+      "publication": "manual",
+      "platform": "source",
+      "architecture": "any",
+      "formats": ["tgz"]
+    }
+  ],
+  "applications": [],
+  "capabilities": {
+    "identity": false,
+    "data": false,
+    "billing": false,
+    "realtime": false,
+    "releases": true
+  },
+  "secrets": []
+}

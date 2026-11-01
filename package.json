@@ -1,0 +1,32 @@
+{
+  "name": "osiris",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "https://github.com/ntanis-dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntanis-dev/osiris.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntanis-dev/osiris/issues"
+  },
+  "homepage": "https://github.com/ntanis-dev/osiris#readme",
+  "description": "Brings back every Claude Code window a sudden restart closed, each in its folder, on its conversation, plain claude or Baton.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "bin": {
+    "osiris": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/*.test.js",
+    "check": "node scripts/check.js",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.9"
+  }
+}
